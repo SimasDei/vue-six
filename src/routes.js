@@ -35,5 +35,13 @@ export const routes = [
       'header-top': Header
     },
     name: 'home'
+  },
+  {
+    path: '/redirect-me',
+    redirect: '/user'
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ];
